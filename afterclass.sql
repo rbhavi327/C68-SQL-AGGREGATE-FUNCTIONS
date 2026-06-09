@@ -1,4 +1,4 @@
-CREATE TABLE Employees (
+CREATE TABLE IF NOT EXISTS Employees (
     EmpID INT PRIMARY KEY,
     Name VARCHAR(50),
     Department VARCHAR(50),
